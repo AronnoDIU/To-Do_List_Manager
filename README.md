@@ -32,7 +32,7 @@ exit.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/to-do-list-manager.git
+   git clone https://github.com/AronnoDIU/to-do-list-manager.git
    ```
 
 ## Usage
