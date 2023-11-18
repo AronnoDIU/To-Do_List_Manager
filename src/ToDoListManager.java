@@ -28,22 +28,22 @@ public class ToDoListManager {
             scanner.nextLine(); // consume the newline character
 
             switch (choice) {
-                case 1:
+                case 1: // For add task
                     addTask();
                     break;
-                case 2:
+                case 2: // For view task
                     viewTasks();
                     break;
-                case 3:
+                case 3: // For mark task as completed
                     markTaskAsCompleted();
                     break;
-                case 4:
+                case 4: // For exit
                     System.out.println("Exiting To-Do List Manager. Goodbye!");
                     break;
-                default:
+                default: // For invalid choice
                     System.out.println("Invalid choice. Please enter a valid option.");
             }
-        } while (choice != 4);
+        } while (choice != 4); // Exit when choice is 4
     }
 
     private void addTask() {
